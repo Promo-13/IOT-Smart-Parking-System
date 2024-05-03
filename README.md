@@ -24,8 +24,8 @@ After creating feeds, now create an Adafruit IO dashboard to show all of these f
 In the next window, enter the name for your dashboard and click on ‘Create.’.
 6. As the dashboard is created now, we will add our feeds to the dashboard. To add a feed, click on the ‘+’ in the top right corner.First, we will add two RESET buttons blocks for Entry and Exit gate and then seven TEXT blocks for parking details.
 To add a button on the dashboard click on the RESET block.In the next window it will ask you to choose the feed, so click on the entry gate feed.
-7.In this step, give your block a title and customize it accordingly. Change the press value from ‘1’ to ‘ON’. So whenever the button is pressed it will send the ‘ON’ string to NodeMCU, and NodeMCU will perform the further task. If you don’t want to change the press value here than you can change the condition in the program.
-8.After this, follow the same procedure to create another block for the exit gate.
+7. In this step, give your block a title and customize it accordingly. Change the press value from ‘1’ to ‘ON’. So whenever the button is pressed it will send the ‘ON’ string to NodeMCU, and NodeMCU will perform the further task. If you don’t want to change the press value here than you can change the condition in the program.
+8. After this, follow the same procedure to create another block for the exit gate.
 To create the rest of the blocks follow the same procedure, but instead of creating a RESET block, create a TEXT block so that you can show the parking details.
 After creating all the blocks, my dashboard looks like below. You can edit the dashboard by clicking on the settings buttons.
 
